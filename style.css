@@ -60,3 +60,11 @@ body {
   max-width: 800px;
   margin: auto;
 }
+.email-link {
+  color: white;
+  text-decoration: underline;
+}
+
+.email-link:hover {
+  color: #00ffcc;
+}
