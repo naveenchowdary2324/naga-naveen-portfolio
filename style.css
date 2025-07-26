@@ -1,9 +1,11 @@
+/* style.css */
 body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
   background: linear-gradient(135deg, #081b29, #1f4068);
   color: white;
 }
+
 .container {
   perspective: 1000px;
   display: flex;
@@ -11,24 +13,46 @@ body {
   align-items: center;
   height: 100vh;
 }
+
 .card {
   background: #00abf0;
   padding: 30px;
   border-radius: 10px;
   box-shadow: 0 10px 20px rgba(0,0,0,0.2);
   text-align: center;
+  max-width: 500px;
 }
+
 .socials a {
   color: white;
   font-size: 24px;
   margin: 0 10px;
   text-decoration: none;
 }
-nav a {
-  color: white;
-  margin: 0 10px;
-  text-decoration: underline;
+
+.nav-buttons {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
 }
+
+.nav-btn {
+  padding: 10px 20px;
+  background-color: #081b29;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.nav-btn:hover {
+  background-color: #005377;
+}
+
 .page {
   padding: 30px;
   max-width: 800px;
