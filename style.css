@@ -56,12 +56,7 @@ body {
 
 
 .page {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
   padding: 30px;
-  text-align: center;
-  color: white;
+  max-width: 800px;
+  margin: auto;
 }
